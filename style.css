@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.card{
+    min-height: 270px;
+}
+.orange{
+    border: rgb(253, 163, 66);
+    background-color: rgb(253, 163, 66);
+}
+.green {
+    border: rgb(116, 220, 98);
+    background-color : rgb(116, 220, 98);
+}
+.lail{
+    border: rgb(187, 81, 243);
+    background-color : rgb(187, 81, 243);
+}
+.red:hover, 
+.orange:hover, 
+.lail:hover,
+.green:hover{
+    transform: scale(1.2);
+}
+
+button {
+    outline: none! important;
+}
