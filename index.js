@@ -5,6 +5,11 @@ let orange = document.querySelectorAll(".orange");
 let green = document.querySelectorAll(".green");
 let lail = document.querySelectorAll(".lail");
 
+var myCarousel = document.querySelector('#carouselExampleControls');
+var carousel = new bootstrap.Carousel(myCarousel, {
+  interval: false,  // تعطيل التحرك التلقائي
+  ride: false       // تأكد من أن التحرك التلقائي معطل
+});
 text_Card.forEach((item, index) => {
   if (index % 2 == 0) {
     item.style.top = "-100%";
