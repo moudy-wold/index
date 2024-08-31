@@ -27,3 +27,15 @@
 button {
     outline: none! important;
 }
+
+.carousel-control-prev,
+.carousel-control-next{
+    position: relative !important;
+    color:black;
+
+}
+ 
+.carousel-control-prev :hover,
+.carousel-control-next:hover{
+    color:black
+}
